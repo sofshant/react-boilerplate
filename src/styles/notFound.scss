@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.notFound {
+  background: #1e2749;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  .status {
+    color: white;
+    font-size: 30vw;
+    opacity: .09;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .text {
+    position: absolute;
+    color: #e4d9ff;
+    font-size: 6vw;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+}

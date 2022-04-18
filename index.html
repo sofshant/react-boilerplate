@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--  EDIT THESE  -->
+        <title>React Boilerplate</title>
+        <meta name='description' content='React Boilerplate created by sofshant on github' />
+        <meta name="keywords" content="Sofshant, React, Boilerplate, Github">
+
+        <!--    FOR EMBEDS. EDIT THESE TOO    -->
+        <meta property='og:title' content='React Boilerplate' />
+        <meta property='twitter:title' content='React Boilerplate' />
+        <meta property='og:description' content='React Boilerplate created by sofshant on github' />
+        <meta property='twitter:description' content='React Boilerplate created by sofshant on github' />
+
+        <!--  DONT EDIT UNLESS NEEDED  -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name='robots' content='index, follow' />
+
+        <!--   CSS HASHED TO AVOID INTERFERENCE     -->
+        <style>@import url(https://fonts.googleapis.com/css2?family=Raleway&display=swap);.cLXrGBFtPqZnvbP{position:absolute;left:0;top:0;width:100vw;height:100vh;background:#1e2749;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:99999}.RafcgDvZvutGpbW{color:#e4d9ff;font-size:4em;font-family:Raleway,sans-serif;text-align:center;z-index:9999999}.eKuYBLEhyAraYpq{position:absolute;left:0;top:0;width:100vw;height:100vh}.HVXLFwSejadgWUA{transform:scale(.1);animation:2s gXbcdQaWVRvugJf infinite linear,1.5s SxengGTxLuCZAZH infinite linear}@keyframes gXbcdQaWVRvugJf{from{stroke-dasharray:100 0}50%{stroke-dasharray:0 100}to{stroke-dasharray:100 0}}@keyframes SxengGTxLuCZAZH{from{stroke-dashoffset:75}to{stroke-dashoffset:375}}.txwvdymTtDaMeJx{position:absolute;left:0;top:0;opacity:.1;width:100vw;height:100vh;transform:scale(.5);background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 15h2v2h-2v-2zm0-8h2v6h-2V7zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" fill="snow" stroke="snow"/></svg>') no-repeat center center fixed}.dezMhWhCtUfVQqt{position:absolute;color:#e4d9ff;font-size:2em;font-family:Raleway,sans-serif;text-align:center;transform:translateY(100px)}.jfXCUpCBeRetwBP{width:100vw;height:100vh;display:flex;align-items:center;justify-content:center;flex-direction:column}.hHPNChNMYtzTtNL{display:none}</style>
+    </head>
+
+    <body>
+        <div id='root'>
+            <noscript class='cLXrGBFtPqZnvbP'>
+                <!--      ERROR ICON      -->
+                <div class='txwvdymTtDaMeJx'></div>
+                <!--      TEXT      -->
+                <span class='RafcgDvZvutGpbW'>please enable javascript to continue</span>
+            </noscript>
+
+            <!--     LOADING SPINNER       -->
+            <div class='eKuYBLEhyAraYpq' style='background: #1E2749'>
+                <div class='jfXCUpCBeRetwBP'>
+                    <!--     ACTUAL SPINNER       -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 -20 40 40">
+                        <circle class='HVXLFwSejadgWUA' r="15.9154943092" stroke-width="7" fill="none" stroke="snow" />\
+                    </svg>
+                    <!--      TEXT      -->
+                    <p class='dezMhWhCtUfVQqt hHPNChNMYtzTtNL' id='hHPNChNMYtzTtNL'>consider refreshing the page if this takes too long</p>
+                </div>
+            </div>
+
+            <!--      FUNCTION TO NOTIFY USER OF SLOW BROWSER      -->
+            <script>
+                setTimeout(() => {
+                    try {
+                        document.getElementById('hHPNChNMYtzTtNL').classList.remove('hHPNChNMYtzTtNL');
+                    } catch (e) { console.log('Successfully loaded app in time.'); }
+                }, 3000);
+            </script>
+        </div>
+    </body>
+</html>

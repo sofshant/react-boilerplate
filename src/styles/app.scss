@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.index {
+  background: #1e2749;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  .hey {
+    color: white;
+    font-size: 20vw;
+    opacity: .15;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .text {
+    position: absolute;
+    color: #e4d9ff;
+    font-size: 3vw;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+
+  .code {
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgba(255, 253, 253, 0.24);
+    border-radius: 10px;
+  }
+}
+
+.badge {
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+  width: 20em;
+  height: 5em;
+  border-radius: 10px;
+  background: #273469;
+  display: flex;
+  align-items: center;
+
+  .avatar {
+    border-radius: 50%;
+    margin-left: 15px;
+    width: 3em;
+    height: 3em;
+  }
+
+  .divider {
+    margin-left: 10px;
+    background: #FAFAFF;
+    border-radius: 100px;
+    opacity: 0.7;
+    width: 1.5px;
+    height: 3em;
+  }
+
+  .github {
+    margin-left: 12px;
+    color: #e4d9ff;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .badge {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
